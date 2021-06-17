@@ -1,13 +1,8 @@
 <template>
   <img alt="Vue logo" src="@/assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" @seach="search" />
 </template>
 
 <script lang="ts" setup>
-import HelloWorld from '@/components/HelloWorld.vue'
-const search = (count: number) => {
-  console.log(count)
-}
 </script>
 
 <style>

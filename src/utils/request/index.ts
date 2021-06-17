@@ -1,5 +1,5 @@
 import axios, { AxiosResponse } from "axios"
-import { Notify } from "vant"
+// import { Notify } from "vant"
 import CancelToken from "./cancelToken"
 
 export type Method = 'GET' | 'POST' | 'PUT' | 'DELETE'
@@ -31,10 +31,10 @@ instance.interceptors.response.use((resp: AxiosResponse<IResponse>) => {
     // 接口请求成功
     return resp.data.data
   }
-  Notify({
-    message: resp.data.msg,
-    duration: 1000
-  })
+  // Notify({
+  //   message: resp.data.msg,
+  //   duration: 1000
+  // })
   return Promise.reject('')
 }, err => {
   return Promise.reject('')
