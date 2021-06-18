@@ -21,8 +21,7 @@ export default class CancelToken {
   */
   public static addPending(config: AxiosRequestConfig) {
     const url = this.getUrl(config)
-    console.log(this.pending)
-    config.cancelToken = config.cancelToken || new axios.CancelToken(cancel => {
+    config.cancelToken = new axios.CancelToken(cancel => {
       if (!this.pending.has(url)) { // 如果 pending 中不存在当前请求，则添加进去
         this.pending.set(url, cancel)
       }
