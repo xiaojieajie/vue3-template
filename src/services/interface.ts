@@ -1,8 +1,8 @@
 export interface IUserList {
-  snickName: string,
-  saddress: string,
-  dcreateTime: string,
-  savatarUrl: string,
+  snickName: string
+  saddress: string
+  dcreateTime: string
+  savatarUrl: string
   sguid: string
 }
 

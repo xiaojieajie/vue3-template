@@ -1,4 +1,5 @@
-import axios, { AxiosRequestConfig, Canceler } from 'axios'
+import axios from 'axios'
+import type { AxiosRequestConfig, Canceler } from 'axios'
 
 export default class CancelToken {
   // 声明一个 Map 用于存储每个请求的标识 和 取消函数
@@ -8,8 +9,8 @@ export default class CancelToken {
 
   /**
    * 得到该格式的url
-   * @param config 
-   * @returns 
+   * @param config
+   * @returns
   */
   private static getUrl(config: AxiosRequestConfig) {
     return [config.method, config.url].join('&')
@@ -21,7 +22,7 @@ export default class CancelToken {
   */
   public static addPending(config: AxiosRequestConfig) {
     const url = this.getUrl(config)
-    config.cancelToken = new axios.CancelToken(cancel => {
+    config.cancelToken = new axios.CancelToken((cancel) => {
       if (!this.pending.has(url)) { // 如果 pending 中不存在当前请求，则添加进去
         this.pending.set(url, cancel)
       }
@@ -40,13 +41,14 @@ export default class CancelToken {
       this.pending.delete(url)
     }
   }
+
   /**
    * 清空 pending 中的请求（在路由跳转时调用）
   */
   public static clearPending() {
-    for (const [url, cancel] of this.pending) {
+    for (const [url, cancel] of this.pending)
       cancel(url)
-    }
+
     this.pending.clear()
   }
 }

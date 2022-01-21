@@ -1,9 +1,32 @@
+import { resolve } from 'path'
 import { defineConfig } from 'vite'
-import path from 'path'
 import vue from '@vitejs/plugin-vue'
+import Unocss from 'unocss/vite'
+import AutoImport from 'unplugin-auto-import/vite'
+import Components from 'unplugin-vue-components/vite'
+import Pages from 'vite-plugin-pages'
+import Layouts from 'vite-plugin-vue-layouts'
+import Markdown from 'vite-plugin-md'
+
+const pathResolve = (src: string) => resolve(__dirname, src)
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [
+    vue(),
+    Unocss(),
+    Pages({ extensions: ['vue', 'md'] }),
+    Layouts(),
+    AutoImport({
+      imports: ['vue', 'pinia', 'vue-router', '@vueuse/core'],
+      dts: 'src/auto-imports.d.ts'
+    }),
+    Components({
+      extensions: ['vue', 'md'],
+      include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
+      dts: 'src/components.d.ts'
+    }),
+    Markdown()
+  ],
   server: {
     proxy: {
       '/xxx': {
@@ -15,20 +38,15 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, 'src')
+      '@': pathResolve('src'),
+      '@a': pathResolve('src/assets')
     }
   },
   css: {
     preprocessorOptions: {
-      less: {
-        modifyVars: {
-          hack: `true; @import (reference) "${path.resolve('src/assets/global.less')}";`,
-        },
-        javascriptEnabled: true
+      scss: {
+        additionalData: '@import "./src/assets/styles/variable.scss";'
       }
-    },
-    postcss: {
-      plugins: []
     }
   }
 })

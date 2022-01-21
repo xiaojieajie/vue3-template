@@ -72,23 +72,3 @@ div,form,img,ul,ol,li,dl,dt,dd {
     border-radius: 6px;
   }
 }
-
-.flexCut(@align: center, @just: center) {
-  display: flex;
-  align-items: @align;
-  justify-content: @just;
-}
-
-.positionCenter() {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.textOverFlow(@line: 2) {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: @line;
-  overflow: hidden;
-}

@@ -1,6 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import router from '@/router'
+import 'uno.css'
+import '@a/styles/index.scss'
+import { registerModules } from './module'
 
-const app = createApp(App)
-app.use(router).mount('#app')
+const app = registerModules(createApp(App))
+
+app.mount('#app')
