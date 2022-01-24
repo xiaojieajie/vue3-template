@@ -8,6 +8,7 @@ import Pages from 'vite-plugin-pages'
 import Layouts from 'vite-plugin-vue-layouts'
 import Markdown from 'vite-plugin-md'
 import VueSetupExtend from 'vite-plugin-vue-setup-extend'
+import ViteImages from 'vite-plugin-vue-images'
 
 const pathResolve = (src: string) => resolve(__dirname, src)
 // https://vitejs.dev/config/
@@ -27,7 +28,8 @@ export default defineConfig({
       dts: 'src/components.d.ts'
     }),
     Markdown(),
-    VueSetupExtend()
+    VueSetupExtend(),
+    ViteImages()
   ],
   server: {
     proxy: {
