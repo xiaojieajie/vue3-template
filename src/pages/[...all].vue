@@ -1,7 +1,5 @@
 <template>
-  <div>
-    error 404
-  </div>
+  <div />
 </template>
 
 <route lang="yaml">

@@ -2,8 +2,10 @@
 </script>
 
 <template>
-  <img alt="Vue logo" :src="Logo">
-  <Hello />
+  <div>
+    <img alt="Vue logo" :src="Logo">
+    <Hello />
+  </div>
 </template>
 
 <style>

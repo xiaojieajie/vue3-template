@@ -1,6 +1,6 @@
 {
   "name": "vue3-template",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "自用Vue3模板",
   "keywords": [
     "vue3",
@@ -23,7 +23,7 @@
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
-    "@black-tooth/eslint-config": "^0.0.1",
+    "@black-tooth/eslint-config": "^0.0.5",
     "@types/node": "^17.0.8",
     "@vitejs/plugin-vue": "^2.0.0",
     "eslint": "^8.6.0",
