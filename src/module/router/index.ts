@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import generatedRoutes from 'virtual:generated-pages'
 import { setupLayouts } from 'virtual:generated-layouts'
 import CancelToken from '@/module/axios/cancelToken'
+import type { App } from 'vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -14,4 +15,6 @@ router.beforeEach((to, from, next) => {
   next()
 })
 
-export default router
+export const install = (app: App) => {
+  app.use(router)
+}
