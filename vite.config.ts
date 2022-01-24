@@ -7,6 +7,7 @@ import Components from 'unplugin-vue-components/vite'
 import Pages from 'vite-plugin-pages'
 import Layouts from 'vite-plugin-vue-layouts'
 import Markdown from 'vite-plugin-md'
+import VueSetupExtend from 'vite-plugin-vue-setup-extend'
 import ViteImages from 'vite-plugin-vue-images'
 
 const pathResolve = (src: string) => resolve(__dirname, src)
@@ -27,6 +28,7 @@ export default defineConfig({
       dts: 'src/components.d.ts'
     }),
     Markdown(),
+    VueSetupExtend(),
     ViteImages()
   ],
   server: {
