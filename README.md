@@ -14,12 +14,10 @@ User 是接口书写示例，请根据自己的业务进行书写
 `vite` >= @v2.0
 
 # Features
+
 - 完美的[typescript](https://www.tslang.cn/docs/home.html)支持
 - 灵活的[unocss](https://github.com/antfu/unocss) <img width="30" src="https://raw.githubusercontent.com/antfu/unocss/main/playground/public/icon-gray.svg" />构建 
-- [pinia](https://pinia.vuejs.org/) <img width="30" src="https://pinia.vuejs.org/logo.svg" /> 状态管理
-- 约定式路由 [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages) 、[vite-plugin-vue-layouts](https://github.com/JohnCampionJr/vite-plugin-vue-layouts)
-- 图片[vite-plugin-vue-images](https://github.com/sampullman/vite-plugin-vue-images)自动引入
-- 组件[unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)自动引入
+- [pinia](https://pinia.vuejs.org/) 状态管理
 - etc.
 
 # Docs
@@ -27,25 +25,18 @@ User 是接口书写示例，请根据自己的业务进行书写
 
 - [vue3](https://staging-cn.vuejs.org/)
 - [vue-router@next](https://next.router.vuejs.org/zh/)
-- [pinia](https://pinia.vuejs.org/)
-- [unocss](https://github.com/antfu/unocss)
+- [pinia](https://pinia.vuejs.org/) (状态管理，代理vuex)
+- [unocss](https://github.com/antfu/unocss) (原子化css)
 - etc.
 
 
 # vite插件
 
 - [vite-plugin-md](https://github.com/antfu/vite-plugin-md)
-- [vite-plugin-vue-layouts](https://github.com/johncampionjr/vite-plugin-vue-layouts)
-- [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages)
-- [vite-plugin-vue-images](https://github.com/sampullman/vite-plugin-vue-images)
-- [vite-plugin-vue-setup-extend](https://github.com/vbenjs/vite-plugin-vue-setup-extend)
-
-# tips
-
-用pinia 代替 vuex，使用更加简单，方便
-
-用unocss 减少css的书写
-
+- [vite-plugin-vue-layouts](https://github.com/johncampionjr/vite-plugin-vue-layouts) (约定式路由，layout布局)
+- [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages) (约定式路由，页面)
+- [vite-plugin-vue-images](https://github.com/sampullman/vite-plugin-vue-images) (直接使用图片文件，不需要导入)
+- [vite-plugin-vue-setup-extend](https://github.com/vbenjs/vite-plugin-vue-setup-extend) (给vue组件配置name属性)
 
 # Project Activity
 
