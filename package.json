@@ -13,6 +13,7 @@
     "build": "vue-tsc --noEmit && vite build --mode prod",
     "serve": "vite preview",
     "lint": "eslint \"**/*.{vue,ts,js}\"",
+    "test": "vitest",
     "lint:fix": "nr lint -- --fix"
   },
   "dependencies": {
@@ -38,6 +39,7 @@
     "vite-plugin-vue-images": "^0.6.1",
     "vite-plugin-vue-layouts": "^0.5.0",
     "vite-plugin-vue-setup-extend": "^0.4.0",
+    "vitest": "^0.3.4",
     "vue-tsc": "^0.29.8"
   }
 }
