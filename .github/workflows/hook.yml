@@ -37,6 +37,7 @@ jobs:
           cache: 'pnpm'
       
       - name: Install
+        if: ${{ always() }}
         run: pnpm i
 
       - name: Lint
