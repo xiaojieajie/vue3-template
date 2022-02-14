@@ -1,4 +1,5 @@
 <script lang="ts" setup name="Home">
+import Logo from '@a/img/logo.png'
 </script>
 
 <template>
