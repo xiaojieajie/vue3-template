@@ -1,6 +1,7 @@
 {
   "name": "vue3-template",
   "version": "0.0.1",
+  "private": true,
   "description": "自用Vue3模板",
   "keywords": [
     "vue3",
