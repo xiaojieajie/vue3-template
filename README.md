@@ -38,7 +38,7 @@ User 是接口书写示例，请根据自己的业务进行书写
 - [vite-plugin-vue-images](https://github.com/sampullman/vite-plugin-vue-images) (直接使用图片文件，不需要导入)
 - [vite-plugin-vue-setup-extend](https://github.com/vbenjs/vite-plugin-vue-setup-extend) (给vue组件配置name属性)
 
-# Project Activity
+# Project Activity 
 
 ![Alt](https://repobeats.axiom.co/api/embed/976bad85b219dc8d14cbeff17794c65d6148e600.svg "Repobeats analytics image")
 
