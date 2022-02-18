@@ -37,6 +37,8 @@ User 是接口书写示例，请根据自己的业务进行书写
 - [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages) (约定式路由，页面)
 <!-- - [vite-plugin-vue-images](https://github.com/sampullman/vite-plugin-vue-images) (直接使用图片文件，不需要导入) -->
 - [vite-plugin-vue-setup-extend](https://github.com/vbenjs/vite-plugin-vue-setup-extend) (给vue组件配置name属性)
+- [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)（自动导入组件）
+- [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import#readme)（自动导入Api）
 
 # Project Activity 
 
