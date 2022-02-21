@@ -25,7 +25,7 @@
     "vue-router": "4.0.12"
   },
   "devDependencies": {
-    "@black-tooth/eslint-config": "0.0.7",
+    "@black-tooth/eslint-config": "0.0.10",
     "@types/node": "17.0.18",
     "@vitejs/plugin-vue": "2.2.2",
     "eslint": "8.9.0",
