@@ -5,5 +5,4 @@ import '@a/styles/index.scss'
 import { registerModules } from './module'
 
 const app = registerModules(createApp(App))
-
 app.mount('#app')
