@@ -25,12 +25,12 @@ export default defineConfig({
       }
     })
   ],
-  
+
   shortcuts: [
     ['p-c', 'absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'],
     ['p-x', 'absolute left-1/2 -translate-x-1/2'],
     ['p-y', 'absolute top-1/2 -translate-y-1/2'],
-    ['f-c', 'flex justify-center items-center' ],
+    ['f-c', 'flex justify-center items-center'],
     ['f-col', 'flex flex-col'],
     ['f-a', 'flex items-center'],
     ['f-j', 'flex justify-center']
