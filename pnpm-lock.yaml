@@ -22,7 +22,7 @@ importers:
       vite-plugin-vue-images: 0.6.1
       vite-plugin-vue-layouts: 0.6.0
       vite-plugin-vue-setup-extend: 0.4.0
-      vitest: 0.5.0
+      vitest: 0.5.1
       vue: 3.2.31
       vue-router: 4.0.12
       vue-tsc: 0.31.4
@@ -48,7 +48,7 @@ importers:
       vite-plugin-vue-images: 0.6.1
       vite-plugin-vue-layouts: 0.6.0_38d013b3483c2295d006adc17a4cc10f
       vite-plugin-vue-setup-extend: 0.4.0_vite@2.8.4
-      vitest: 0.5.0_sass@1.49.8
+      vitest: 0.5.1_sass@1.49.8
       vue-tsc: 0.31.4_typescript@4.5.5
 
 packages:
@@ -3707,8 +3707,8 @@ packages:
       - stylus
     dev: true
 
-  /vitest/0.5.0_sass@1.49.8:
-    resolution: {integrity: sha512-vgEej0Tl0VHztDKFQlC8wItPoszUMjac9rgHyw2uIZv9DK+4NMckxfnvhBHOvsnZXxWHOvk2sXmy80e95c820A==}
+  /vitest/0.5.1_sass@1.49.8:
+    resolution: {integrity: sha512-s1iP3QYf4J7pHmOd2rRRrG+06XX6uBXmnqqbhyd7cZUj+pmR4gwbF8K1+V6I2SqM4/jRBbcxJMt6xoNjgD2I1Q==}
     engines: {node: '>=14.14.0'}
     hasBin: true
     peerDependencies:
