@@ -14,13 +14,8 @@ importers:
       sass: 1.49.8
       typescript: 4.5.5
       unocss: 0.26.2
-<<<<<<< HEAD
-      unplugin-auto-import: 0.6.0
-      unplugin-vue-components: 0.17.18
-=======
       unplugin-auto-import: 0.6.1
       unplugin-vue-components: 0.17.19
->>>>>>> b738f58bc1e5a3b7c8431420bbc33e90ea6b5135
       vite: 2.8.4
       vite-plugin-md: 0.11.8
       vite-plugin-pages: 0.20.2
@@ -45,13 +40,8 @@ importers:
       sass: 1.49.8
       typescript: 4.5.5
       unocss: 0.26.2_sass@1.49.8
-<<<<<<< HEAD
-      unplugin-auto-import: 0.6.0_@vueuse+core@7.6.2+vite@2.8.4
-      unplugin-vue-components: 0.17.18_vite@2.8.4+vue@3.2.31
-=======
       unplugin-auto-import: 0.6.1_@vueuse+core@7.6.2+vite@2.8.4
       unplugin-vue-components: 0.17.19_vite@2.8.4+vue@3.2.31
->>>>>>> b738f58bc1e5a3b7c8431420bbc33e90ea6b5135
       vite: 2.8.4_sass@1.49.8
       vite-plugin-md: 0.11.8_vite@2.8.4
       vite-plugin-pages: 0.20.2_vite@2.8.4
