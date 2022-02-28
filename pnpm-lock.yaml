@@ -24,14 +24,14 @@ importers:
       vite-plugin-vue-setup-extend: 0.4.0
       vitest: 0.5.5
       vue: 3.2.31
-      vue-router: 4.0.12
+      vue-router: 4.0.13
       vue-tsc: 0.32.0
     dependencies:
       '@vueuse/core': 7.6.2_vue@3.2.31
       axios: 0.26.0
       pinia: 2.0.11_typescript@4.5.5+vue@3.2.31
       vue: 3.2.31
-      vue-router: 4.0.12_vue@3.2.31
+      vue-router: 4.0.13_vue@3.2.31
     devDependencies:
       '@black-tooth/eslint-config': 0.0.12_eslint@8.10.0+typescript@4.5.5
       '@types/node': 17.0.21
@@ -46,7 +46,7 @@ importers:
       vite-plugin-md: 0.11.8_vite@2.8.4
       vite-plugin-pages: 0.20.2_vite@2.8.4
       vite-plugin-vue-images: 0.6.1
-      vite-plugin-vue-layouts: 0.6.0_38d013b3483c2295d006adc17a4cc10f
+      vite-plugin-vue-layouts: 0.6.0_765bf2bc62a47dd5d59a21bc28acd397
       vite-plugin-vue-setup-extend: 0.4.0_vite@2.8.4
       vitest: 0.5.5_sass@1.49.9
       vue-tsc: 0.32.0_typescript@4.5.5
@@ -752,6 +752,10 @@ packages:
 
   /@vue/devtools-api/6.0.0-beta.21.1:
     resolution: {integrity: sha512-FqC4s3pm35qGVeXRGOjTsRzlkJjrBLriDS9YXbflHLsfA9FrcKzIyWnLXoNm+/7930E8rRakXuAc2QkC50swAw==}
+    dev: false
+
+  /@vue/devtools-api/6.0.12:
+    resolution: {integrity: sha512-iO/4FIezHKXhiDBdKySCvJVh8/mZPxHpiQrTy+PXVqJZgpTPTdHy4q8GXulaY+UKEagdkBb0onxNQZ0LNiqVhw==}
     dev: false
 
   /@vue/reactivity-transform/3.2.31:
@@ -3632,7 +3636,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-vue-layouts/0.6.0_38d013b3483c2295d006adc17a4cc10f:
+  /vite-plugin-vue-layouts/0.6.0_765bf2bc62a47dd5d59a21bc28acd397:
     resolution: {integrity: sha512-7QX7o/NpCfs+hyXphwYfmPqAEQ6qd4uXsvI0VsovjGT2eCoEE5dMdP6L+uqqNWY4uqv7oCvtinecZmbzZv/9Rg==}
     peerDependencies:
       vite: ^2.5.0
@@ -3644,7 +3648,7 @@ packages:
       fast-glob: 3.2.11
       vite: 2.8.4_sass@1.49.9
       vue: 3.2.31
-      vue-router: 4.0.12_vue@3.2.31
+      vue-router: 4.0.13_vue@3.2.31
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3896,12 +3900,12 @@ packages:
       - supports-color
     dev: true
 
-  /vue-router/4.0.12_vue@3.2.31:
-    resolution: {integrity: sha512-CPXvfqe+mZLB1kBWssssTiWg4EQERyqJZes7USiqfW9B5N2x+nHlnsM1D3b5CaJ6qgCvMmYJnz+G0iWjNCvXrg==}
+  /vue-router/4.0.13_vue@3.2.31:
+    resolution: {integrity: sha512-LmXrC+BkDRLak+d5xTMgUYraT3Nj0H/vCbP+7usGvIl9Viqd1UP6AsP0i69pSbn9O0dXK/xCdp4yPw21HqV9Jw==}
     peerDependencies:
-      vue: ^3.0.0
+      vue: ^3.2.0
     dependencies:
-      '@vue/devtools-api': 6.0.0-beta.21.1
+      '@vue/devtools-api': 6.0.12
       vue: 3.2.31
     dev: false
 
