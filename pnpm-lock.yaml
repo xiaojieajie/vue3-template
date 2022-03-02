@@ -6,7 +6,7 @@ importers:
     specifiers:
       '@black-tooth/eslint-config': 0.0.12
       '@types/node': 17.0.21
-      '@vitejs/plugin-vue': 2.2.2
+      '@vitejs/plugin-vue': 2.2.4
       '@vueuse/core': 7.7.0
       axios: 0.26.0
       eslint: 8.10.0
@@ -35,7 +35,7 @@ importers:
     devDependencies:
       '@black-tooth/eslint-config': 0.0.12_eslint@8.10.0+typescript@4.5.5
       '@types/node': 17.0.21
-      '@vitejs/plugin-vue': 2.2.2_vite@2.8.4+vue@3.2.31
+      '@vitejs/plugin-vue': 2.2.4_vite@2.8.4+vue@3.2.31
       eslint: 8.10.0
       sass: 1.49.9
       typescript: 4.5.5
@@ -643,8 +643,8 @@ packages:
       - stylus
     dev: true
 
-  /@vitejs/plugin-vue/2.2.2_vite@2.8.4+vue@3.2.31:
-    resolution: {integrity: sha512-3C0s45VOwIFEDU+2ownJOpb0zD5fnjXWaHVOLID2R1mYOlAx3doNBFnNbVjaZvpke/L7IdPJXjpyYpXZToDKig==}
+  /@vitejs/plugin-vue/2.2.4_vite@2.8.4+vue@3.2.31:
+    resolution: {integrity: sha512-ev9AOlp0ljCaDkFZF3JwC/pD2N4Hh+r5srl5JHM6BKg5+99jiiK0rE/XaRs3pVm1wzyKkjUy/StBSoXX5fFzcw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: ^2.5.10
