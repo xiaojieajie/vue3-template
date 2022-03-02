@@ -27,6 +27,7 @@ User 是接口书写示例，请根据自己的业务进行书写
 - [vue-router@next](https://next.router.vuejs.org/zh/)
 - [pinia](https://pinia.vuejs.org/) (状态管理，代理vuex)
 - [unocss](https://github.com/antfu/unocss) (原子化css)
+- [vueUse](https://vueuse.org/) (vue3各种hook)
 - etc.
 
 
