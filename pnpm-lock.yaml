@@ -18,7 +18,7 @@ importers:
       unplugin-vue-components: 0.17.21
       vite: 2.8.6
       vite-plugin-md: 0.11.8
-      vite-plugin-pages: 0.21.0
+      vite-plugin-pages: 0.21.4
       vite-plugin-vue-images: 0.6.1
       vite-plugin-vue-layouts: 0.6.0
       vite-plugin-vue-setup-extend: 0.4.0
@@ -44,7 +44,7 @@ importers:
       unplugin-vue-components: 0.17.21_vite@2.8.6+vue@3.2.31
       vite: 2.8.6_sass@1.49.9
       vite-plugin-md: 0.11.8_vite@2.8.6
-      vite-plugin-pages: 0.21.0_vite@2.8.6
+      vite-plugin-pages: 0.21.4_vite@2.8.6
       vite-plugin-vue-images: 0.6.1
       vite-plugin-vue-layouts: 0.6.0_a4592832fd4441821c40bfaa7d2d3166
       vite-plugin-vue-setup-extend: 0.4.0_vite@2.8.6
@@ -3614,8 +3614,8 @@ packages:
       vite: 2.8.6_sass@1.49.9
     dev: true
 
-  /vite-plugin-pages/0.21.0_vite@2.8.6:
-    resolution: {integrity: sha512-O7en6RcLaWvKkKDIpB2Y1tjZIvvzK5AKG382yzG5vw7C+2ZP7lCNYjYg59O3+/BwTiS50IlFv5QPnD8Z8Iyi8w==}
+  /vite-plugin-pages/0.21.4_vite@2.8.6:
+    resolution: {integrity: sha512-2vtEkOjAXHARNUx0M636XfFtMlg1rFYmSbrsfNckxqG32A6COYD0y4EX3jtIonccc6CdKHubw6sR5xIS9t5Qyw==}
     peerDependencies:
       '@vue/compiler-sfc': '>=3'
       vite: '>=2'
