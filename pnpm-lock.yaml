@@ -8,7 +8,7 @@ importers:
       '@types/node': 17.0.21
       '@vitejs/plugin-vue': 2.2.4
       '@vueuse/core': 7.7.0
-      axios: 0.26.0
+      axios: 0.26.1
       eslint: 8.10.0
       pinia: 2.0.11
       sass: 1.49.9
@@ -28,7 +28,7 @@ importers:
       vue-tsc: 0.32.1
     dependencies:
       '@vueuse/core': 7.7.0_vue@3.2.31
-      axios: 0.26.0
+      axios: 0.26.1
       pinia: 2.0.11_typescript@4.6.2+vue@3.2.31
       vue: 3.2.31
       vue-router: 4.0.13_vue@3.2.31
@@ -590,7 +590,7 @@ packages:
     resolution: {integrity: sha512-tepZlo935vfFVU/+GwiUgBMjwKDQyYsaz8EtsBNOePpYICHLpHaaTrQyOqip9J97Yz/Wq7FWbM4xe0/WUj0iMw==}
     dependencies:
       '@unocss/core': 0.27.5
-      axios: 0.26.0
+      axios: 0.26.1
     transitivePeerDependencies:
       - debug
     dev: true
@@ -948,8 +948,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /axios/0.26.0:
-    resolution: {integrity: sha512-lKoGLMYtHvFrPVt3r+RBMp9nh34N0M8zEfCWqdWZx6phynIEhQqAdydpyBAAG211zlhX9Rgu08cOamy6XjE5Og==}
+  /axios/0.26.1:
+    resolution: {integrity: sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA==}
     dependencies:
       follow-redirects: 1.14.8
     transitivePeerDependencies:
