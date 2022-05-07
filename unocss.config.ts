@@ -1,28 +1,20 @@
-import { defineConfig, presetAttributify, presetUno, presetWebFonts } from 'unocss'
+import { defineConfig, presetAttributify, presetIcons, presetTypography, presetUno, presetWebFonts, transformerDirectives, transformerVariantGroup } from 'unocss'
 
 export default defineConfig({
   presets: [
     presetAttributify(),
     presetUno(),
+    presetIcons({
+      scale: 1.2,
+      warn: true,
+    }),
+    presetTypography(),
     presetWebFonts({
       fonts: {
-        // these will extend the default theme
-        sans: 'Roboto',
-        mono: ['Fira Code', 'Fira Mono:400,700'],
-        // custom ones
-        lobster: 'Lobster',
-        lato: [
-          {
-            name: 'Lato',
-            weights: ['400', '700'],
-            italic: true
-          },
-          {
-            name: 'sans-serif',
-            provider: 'none'
-          }
-        ]
-      }
+        sans: 'DM Sans',
+        serif: 'DM Serif Display',
+        mono: 'DM Mono',
+      },
     })
   ],
 
@@ -34,5 +26,9 @@ export default defineConfig({
     ['f-col', 'flex flex-col'],
     ['f-a', 'flex items-center'],
     ['f-j', 'flex justify-center']
-  ]
+  ],
+  transformers: [
+    transformerDirectives(),
+    transformerVariantGroup(),
+  ],
 })

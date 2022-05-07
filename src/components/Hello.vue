@@ -3,11 +3,11 @@
 </script>
 
 <template>
-  <div class="text-lightblue">
+  <div text="14px #008c8c" bg="yellow" border="1" hover="text-blue">
     欢迎来到模板
   </div>
 </template>
 
-<style lang='scss' scoped>
+<style scoped>
 
 </style>
