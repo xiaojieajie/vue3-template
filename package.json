@@ -18,7 +18,7 @@
     "lint:fix": "npm run lint -- --fix"
   },
   "dependencies": {
-    "@vueuse/core": "8.0.1",
+    "@vueuse/core": "8.7.3",
     "axios": "0.26.0",
     "pinia": "2.0.12",
     "vue": "3.2.33",
